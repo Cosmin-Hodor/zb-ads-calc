@@ -31,16 +31,16 @@ const Dashboard = () => {
           borderColor: 'rgb(0, 166, 255)',
         },
         {
-          label: 'Spending',
-          data: receivedData.spendings,
-          fill: false,
-          borderColor: 'rgb(255, 0, 0)',
-        },
-        {
           label: 'Remaining',
           data: receivedData.moneyAfterSpendings,
           fill: false,
           borderColor: 'rgb(0, 255, 0)',
+        },
+        {
+          label: 'Spending',
+          data: receivedData.spendings,
+          fill: false,
+          borderColor: 'rgb(255, 0, 0)',
         },
       ],
     };
@@ -119,7 +119,7 @@ const Dashboard = () => {
       <h2>Simulate your spendings</h2>
 
       <p>Make every penny count as you strategically allocate your budget towards high-converting activities. <br />
-      🔥 Burn through money, but do it smart!</p>
+        🔥 Burn through money, but do it smart!</p>
 
       <div>
         <label htmlFor="monthlyBudget">Monthly Budget: </label>
